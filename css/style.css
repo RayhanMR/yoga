@@ -1,0 +1,472 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	padding: 20px 0px;
+	background: url("../images/header.png") center top no-repeat;
+	background-size: cover;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	color: #434e5b;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 50px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+	color: #e6c8c3;
+}
+.banner{
+	width: 100%;
+	padding: 150px 0px;
+}
+.banner .inner-banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner .inner-banner h1{
+	font-size: 80px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-transform: capitalize;
+}
+.banner .inner-banner p{
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #434e5b;
+	margin: 80px 0px 80px 0px;
+	text-transform: capitalize;
+}
+.banner .inner-banner .button{
+	width: 100%;
+	padding: 40px 0px 0px;
+}
+.banner .inner-banner .button .btn-primary{
+	padding: 10px 45px;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 1px;
+	letter-spacing: 1px;
+	background: #e6c8c3;
+	border: 1px solid #e6c8c3;
+	color: #434e5b;
+	transition: 1s;
+}
+.banner .inner-banner .button .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.banner .inner-banner .button .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.pregnant{
+	width: 100%;
+	padding: 250px 0px;
+	background: url("../images/b1.png") center top no-repeat;
+	background-size: cover;
+}
+.pregnant .pregnant-women{
+	width: 100%;
+	padding: 80px 0px;
+}
+.pregnant .pregnant-women h1{
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-transform: capitalize;
+}
+.pregnant .pregnant-women p{
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #434e5b;
+	margin: 80px 0px 80px 0px;
+	text-transform: capitalize;
+}
+.pregnant .pregnant-women .button .btn-primary{
+	padding: 10px 45px;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 1px;
+	letter-spacing: 1px;
+	background: #e6c8c3;
+	border: 1px solid #e6c8c3;
+	color: #434e5b;
+	transition: 1s;
+}
+.pregnant .pregnant-women .button .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.pregnant .pregnant-women .button .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.yoga{
+	width: 100%;
+	padding: 80px 0px;
+}
+.yoga .yoga-women{
+	width: 60%;
+}
+.yoga .yoga-women img{
+	width: 100%;
+	margin: 0px 0px 25px;
+}
+.yoga .yoga-women h4{
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-align: center;
+	text-transform: capitalize;
+}
+.yoga .yoga-women p{
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.7em;
+	color: #434e5b;
+	text-transform: capitalize;
+}
+.breathing{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/b5.png") center top no-repeat;
+	background-size: cover;
+}
+.breathing .yoga-breathing{
+	width: 100%;
+	padding: 80px 0px;
+}
+.breathing .yoga-breathing h1{
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-transform: capitalize;
+}
+.breathing .yoga-breathing p{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #434e5b;
+	margin: 40px 0px 40px 0px;
+	text-transform: capitalize;
+}
+.breathing .yoga-breathing .btn-primary{
+	padding: 10px 45px;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 1px;
+	letter-spacing: 1px;
+	background: #e6c8c3;
+	border: 1px solid #e6c8c3;
+	color: #434e5b;
+	transition: 1s;
+}
+.breathing .yoga-breathing .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.breathing .yoga-breathing .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.breathing .yoga-img{
+	padding: 80px 0px;
+}
+.offer{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/b6.png") center top no-repeat;
+	background-size: cover;
+}
+.offer .yoga-offer{
+	width: 100%;
+	padding: 150px 0px;
+}
+.offer .yoga-offer h1{
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-transform: capitalize;
+}
+.offer .yoga-offer p{
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #434e5b;
+	margin: 40px 0px 40px 0px;
+	text-transform: capitalize;
+}
+.offer .yoga-offer .button .btn-primary{
+	padding: 10px 45px;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 1px;
+	letter-spacing: 1px;
+	background: #e6c8c3;
+	border: 1px solid #e6c8c3;
+	color: #434e5b;
+	transition: 1s;
+}
+.offer .yoga-offer .button .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.offer .yoga-offer .button .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.galery{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/b7.png") center top no-repeat;
+	background-size: cover;
+}
+.galery h1{
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-align: center;
+	text-transform: capitalize;
+}
+.galery p{
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.7em;
+	color: #434e5b;
+	text-transform: capitalize;
+	margin: 40px 0px 40px 0px;
+}
+.galery .card{
+	border: 0px;
+	box-shadow: 0px 10px 40px rgba(0 ,0, 0, 0.1);
+}
+.galery .card-img-top{
+
+}
+.galery .card-body{
+	margin: 0px 0px 25px 0px;
+}
+.galery .card-title{
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-align: center;
+	margin: 20px 0px;
+}
+.galery .card-text{
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.7em;
+	color: #434e5b;
+	margin: 0px 0px 25px 0px;
+}
+.traning{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/b8.png") center top no-repeat;
+	background-size: cover;
+}
+.yoga-traning{
+	width: 100%;
+	padding: 80px 0px;
+	margin: 80px 80px;
+}
+.traning .yoga-traning h1{
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-transform: capitalize;
+}
+.traning .yoga-traning p{
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 1.7em;
+	color: #434e5b;
+	margin: 60px 0px 60px 0px;
+	text-transform: capitalize;
+}
+.traning .social-icons{
+	width: 100%;
+	display: block;
+}
+.traning .social-icons li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin: 0px;
+}
+.traning .social-icons li a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #484f5b;
+	color: #fff;
+	font-size: 25px;
+	margin: 0px 20px;
+}
+.touch{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/b9.png") center top no-repeat;
+	background-size: cover;
+}
+.touch .in-touch{
+	width: 100%;
+	padding: 80px 0px;
+}
+.touch .in-touch h1{
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #434e5b;
+	text-align: center;
+	text-transform: capitalize;
+}
+.touch .in-touch p{
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.7em;
+	color: #434e5b;
+	margin: 40px 0px 40px 0px;
+	text-transform: capitalize;
+}
+.touch .in-touch .form-control{
+	font-size: 25px;
+	text-transform: capitalize;
+	border: 2px solid #b0b0b0;
+	background: #efefef;
+}
+.touch .in-touch .button{
+	text-align: center;
+	padding: 45px 0px;
+}
+.touch .in-touch .button .btn-primary{
+	padding: 10px 45px;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 1px;
+	letter-spacing: 1px;
+	background: #e6c8c3;
+	border: 1px solid #e6c8c3;
+	color: #434e5b;
+	transition: 1s;
+	text-align: center;
+}
+.touch .in-touch .button .btn-primary:hover{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.touch .in-touch .button .btn-primary:focus{
+	background: transparent;
+	border: 1px solid #e6c8c3;
+	color: #e6c8c3;
+}
+.footer{
+	width: 100%;
+	padding: 80px 0px;
+	background: #484f5b;
+}
+.footer h4{
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 0px 25px 0px;
+	text-transform: capitalize;
+}
+.footer p{
+	font-size: 18px;
+	line-height: 1.7em;
+	font-weight: 400;
+	color: #fff;
+}
+.widget{
+	width: 100%;
+}
+.widget li{
+	list-style: none;
+	display: block;
+}
+.widget li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.widget li .active{
+	font-weight: 600;
+}
+.footer img{
+	width: 20%;
+	margin: 0px 0px 10px 0px;
+}
+.footer .social-icons{
+	width: 100%;
+	display: block;
+}
+.footer .social-icons li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin: 10px 0px;
+}
+.footer .social-icons li a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background: #fff;
+	color: #484f5b;
+	font-size: 20px;
+	margin: 0px 20px;
+}
